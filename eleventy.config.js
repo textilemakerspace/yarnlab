@@ -107,6 +107,9 @@ export default async function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy(path)
   );
 
+  	//Copy CNAME
+	eleventyConfig.addPassthroughCopy('src/CNAME')
+
   eleventyConfig.addPassthroughCopy({
     // -- to root
     'src/assets/images/favicon/*': '/',
