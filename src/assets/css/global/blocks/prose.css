@@ -80,6 +80,33 @@
   border-radius: var(--border-radius-medium);
 }
 
+.frontpage-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(16rem, 40%);
+  gap: var(--space-l-xl);
+  align-items: start;
+}
+
+.frontpage-image {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.frontpage-image img {
+  inline-size: 100%;
+}
+
+@media screen(ltsm) {
+  .frontpage-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .frontpage-image {
+    grid-column: 1;
+    grid-row: 2;
+  }
+}
+
 @media screen(ltsm) {
   .prose > *,
   .prose a {

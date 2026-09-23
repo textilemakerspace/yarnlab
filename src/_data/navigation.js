@@ -3,10 +3,6 @@ export default {
     {
       text: 'About',
       url: '/about/'
-    },
-    {
-      text: 'News',
-      url: '/news/'
     }
   ],
   bottom: [

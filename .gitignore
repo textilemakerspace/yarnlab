@@ -9,5 +9,5 @@ src/_includes/scripts
 # cache
 .cache
 
-# secret data
-.env.DS_Store
+
+.DS_Store
