@@ -5,6 +5,10 @@
 .section__inner {
   background-color: var(--spot-color, var(--color-bg-accent));
   color: var(--color-text);
+  background-image: url('/assets/svg/divider/punchcard.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .section blockquote {
