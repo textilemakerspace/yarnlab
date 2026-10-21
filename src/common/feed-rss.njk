@@ -1,0 +1,26 @@
+---
+permalink: /rss.xml
+eleventyExcludeFromCollections: true
+excludeFromSitemap: true
+---
+{%- set postslist = collections.posts -%}
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <title>{{ meta.blog.name | escapeHtml }}</title>
+    <link>{{ meta.url | addPathPrefixToFullUrl }}</link>
+    <description>{{ meta.blog.description | escapeHtml }}</description>
+    <language>{{ meta.lang }}</language>
+    <lastBuildDate>{{ postslist | getNewestCollectionItemDate | dateToRfc822 }}</lastBuildDate>
+    {%- for post in postslist | reverse %}
+    {%- set absolutePostUrl = post.url | absoluteUrl(meta.url) %}
+    <item>
+      <title>{{ post.data.title | escapeHtml }}</title>
+      <link>{{ absolutePostUrl }}</link>
+      <guid isPermaLink="true">{{ absolutePostUrl }}</guid>
+      <pubDate>{{ post.date | dateToRfc822 }}</pubDate>
+      <description>{{ post.data.description | escapeHtml }}</description>
+    </item>
+    {%- endfor %}
+  </channel>
+</rss>

@@ -38,6 +38,11 @@ export const blog = {
       type: 'application/atom+xml'
     },
     {
+      title: 'RSS Feed',
+      url: '/rss.xml',
+      type: 'application/rss+xml'
+    },
+    {
       title: 'JSON Feed',
       url: '/feed.json',
       type: 'application/json'
