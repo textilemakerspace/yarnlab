@@ -8,8 +8,34 @@
       
 
       <url>
+        <loc>http://localhost:8080/blog/dhmakes-book-review-sashiko-the-untold-story/</loc>
+        <lastmod>2026-10-18T19:00:00.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+    </url>
+    
+  
+    
+
+      
+        
+      
+
+      <url>
+        <loc>http://localhost:8080/tags/book-reviews/</loc>
+        <lastmod>2026-10-21T22:08:18.704Z</lastmod>
+        <changefreq>monthly</changefreq>
+    </url>
+    
+  
+    
+
+      
+        
+      
+
+      <url>
         <loc>http://localhost:8080/tags/</loc>
-        <lastmod>2026-10-05T21:33:18.116Z</lastmod>
+        <lastmod>2026-10-21T22:08:18.704Z</lastmod>
         <changefreq>monthly</changefreq>
     </url>
     
@@ -22,7 +48,20 @@
 
       <url>
         <loc>http://localhost:8080/about/</loc>
-        <lastmod>2026-10-05T21:33:18.116Z</lastmod>
+        <lastmod>2026-10-21T22:08:18.704Z</lastmod>
+        <changefreq>monthly</changefreq>
+    </url>
+    
+  
+    
+
+      
+        
+      
+
+      <url>
+        <loc>http://localhost:8080/blog/</loc>
+        <lastmod>2026-10-21T22:08:18.704Z</lastmod>
         <changefreq>monthly</changefreq>
     </url>
     
@@ -35,7 +74,7 @@
 
       <url>
         <loc>http://localhost:8080/</loc>
-        <lastmod>2026-10-05T21:33:18.117Z</lastmod>
+        <lastmod>2026-10-21T22:08:18.704Z</lastmod>
         <changefreq>monthly</changefreq>
     </url>
     

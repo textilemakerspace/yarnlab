@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <title>YarnLab News</title>
+    <link>http://localhost:8080/</link>
+    <description>News and updates from YarnLab</description>
+    <language>en</language>
+    <lastBuildDate>Sun, 18 Oct 2026 19:00:00 +0000</lastBuildDate>
+    <item>
+      <title>#DHmakes book review: &#39;Sashiko: the Untold Story&#39;</title>
+      <link>http://localhost:8080/blog/dhmakes-book-review-sashiko-the-untold-story/</link>
+      <guid isPermaLink="true">http://localhost:8080/blog/dhmakes-book-review-sashiko-the-untold-story/</guid>
+      <pubDate>Sun, 18 Oct 2026 19:00:00 +0000</pubDate>
+      <description>A remarkable book from a very embodied-human perspective.</description>
+    </item>
+  </channel>
+</rss>
