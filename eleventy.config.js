@@ -87,6 +87,7 @@ export default async function (eleventyConfig) {
   eleventyConfig.addFilter('shuffle', filters.shuffleArray);
   eleventyConfig.addFilter('alphabetic', filters.sortAlphabetically);
   eleventyConfig.addFilter('slugify', filters.slugifyString);
+  eleventyConfig.addFilter('absoluteUrl', filters.absoluteUrl);
 
   // --------------------- Shortcodes
   eleventyConfig.addShortcode('svg', shortcodes.svgPositionalShortcode);
@@ -103,9 +104,13 @@ export default async function (eleventyConfig) {
   // --------------------- Passthrough File Copy
 
   // -- same path
-  ['src/assets/fonts/', 'src/assets/images/template', 'src/assets/og-images'].forEach(path =>
-    eleventyConfig.addPassthroughCopy(path)
-  );
+  [
+    'src/assets/fonts/',
+    'src/assets/images/template',
+    'src/assets/images/ai-pants-social.jpg',
+    'src/assets/images/yarnlab-frontpage.jpg',
+    'src/assets/og-images'
+  ].forEach(path => eleventyConfig.addPassthroughCopy(path));
 
   	//Copy CNAME
 	eleventyConfig.addPassthroughCopy('src/CNAME')

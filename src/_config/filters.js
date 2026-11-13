@@ -7,6 +7,8 @@ import {shuffleArray} from './filters/sort-random.js';
 import {splitlines} from './filters/splitlines.js';
 import {striptags} from './filters/striptags.js';
 
+export const absoluteUrl = (url, baseUrl) => new URL(url, baseUrl).href;
+
 export default {
   toISOString,
   formatDate,
@@ -16,5 +18,6 @@ export default {
   striptags,
   shuffleArray,
   sortAlphabetically,
-  slugifyString
+  slugifyString,
+  absoluteUrl
 };

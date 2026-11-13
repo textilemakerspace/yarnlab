@@ -1,4 +1,12 @@
-export const url = process.env.URL || 'http://localhost:8080';
+const isProduction = process.env.ELEVENTY_ENV === 'production';
+const productionUrl = 'https://yarnlab.stanford.edu';
+const configuredUrl = process.env.URL;
+const configuredHost = configuredUrl ? new URL(configuredUrl).hostname : '';
+const isLocalUrl = ['localhost', '127.0.0.1', '0.0.0.0'].includes(configuredHost);
+export const url =
+  isProduction && isLocalUrl
+    ? productionUrl
+    : configuredUrl || (isProduction ? productionUrl : 'http://localhost:8080');
 // Extract domain from `url`
 export const domain = new URL(url).hostname;
 export const siteName = 'YarnLab';
