@@ -2,7 +2,7 @@
   "id": "/",
   "name": "YarnLab - A drop-in space for yarn and fiber-crafts",
   "short_name": "YarnLab",
-  "start_url": "http://localhost:8080",
+  "start_url": "https://yarnlab.stanford.edu",
   "icons": [
     {
       "src": "/icon-192x192.png",

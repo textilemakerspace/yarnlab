@@ -1,7 +1,7 @@
 User-agent: *
 Disallow: /404.html
 
-Sitemap: http://localhost:8080/sitemap.xml# AI training and data scraper bots
+Sitemap: https://yarnlab.stanford.edu/sitemap.xml# AI training and data scraper bots
 User-agent: AI2Bot
 User-agent: AI2Bot-DeepResearchEval
 User-agent: AIWebIndex

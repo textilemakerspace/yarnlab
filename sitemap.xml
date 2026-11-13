@@ -8,7 +8,7 @@
       
 
       <url>
-        <loc>http://localhost:8080/blog/dhmakes-book-review-sashiko-the-untold-story/</loc>
+        <loc>https://yarnlab.stanford.edu/blog/dhmakes-book-review-sashiko-the-untold-story/</loc>
         <lastmod>2026-10-18T19:00:00.000Z</lastmod>
         <changefreq>monthly</changefreq>
     </url>
@@ -21,8 +21,8 @@
       
 
       <url>
-        <loc>http://localhost:8080/tags/book-reviews/</loc>
-        <lastmod>2026-11-13T21:07:47.448Z</lastmod>
+        <loc>https://yarnlab.stanford.edu/tags/book-reviews/</loc>
+        <lastmod>2026-11-13T21:22:06.599Z</lastmod>
         <changefreq>monthly</changefreq>
     </url>
     
@@ -34,8 +34,8 @@
       
 
       <url>
-        <loc>http://localhost:8080/tags/</loc>
-        <lastmod>2026-11-13T21:07:47.448Z</lastmod>
+        <loc>https://yarnlab.stanford.edu/tags/</loc>
+        <lastmod>2026-11-13T21:22:06.599Z</lastmod>
         <changefreq>monthly</changefreq>
     </url>
     
@@ -47,8 +47,8 @@
       
 
       <url>
-        <loc>http://localhost:8080/about/</loc>
-        <lastmod>2026-11-13T21:07:47.448Z</lastmod>
+        <loc>https://yarnlab.stanford.edu/about/</loc>
+        <lastmod>2026-11-13T21:22:06.599Z</lastmod>
         <changefreq>monthly</changefreq>
     </url>
     
@@ -60,8 +60,8 @@
       
 
       <url>
-        <loc>http://localhost:8080/blog/</loc>
-        <lastmod>2026-11-13T21:07:47.448Z</lastmod>
+        <loc>https://yarnlab.stanford.edu/blog/</loc>
+        <lastmod>2026-11-13T21:22:06.600Z</lastmod>
         <changefreq>monthly</changefreq>
     </url>
     
@@ -73,8 +73,8 @@
       
 
       <url>
-        <loc>http://localhost:8080/</loc>
-        <lastmod>2026-11-13T21:07:47.448Z</lastmod>
+        <loc>https://yarnlab.stanford.edu/</loc>
+        <lastmod>2026-11-13T21:22:06.600Z</lastmod>
         <changefreq>monthly</changefreq>
     </url>
     
