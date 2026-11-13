@@ -7,6 +7,10 @@ export default {
     {
       text: 'About',
       url: '/about/'
+    },
+    {
+      text: 'AI Pants',
+      url: '/ai-pants/'
     }
   ],
   bottom: [

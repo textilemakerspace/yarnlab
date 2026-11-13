@@ -97,6 +97,22 @@
   --button-text-transform: uppercase;
   --button-tracking: var(--tracking-wide);
 }
+
+.button.gradient-button {
+  --button-padding: var(--space-m) var(--space-xl);
+  --button-font-size: var(--size-step-1);
+  --button-color: var(--color-dark);
+  --button-hover-color: var(--color-dark);
+
+  inline-size: fit-content;
+  background: var(--gradient-conic);
+}
+
+.button.gradient-button:hover {
+  background: var(--gradient-conic);
+  filter: brightness(1.05);
+}
+
 /* Radius variants */
 .button[data-button-radius='hard'] {
   --button-radius: 0;
